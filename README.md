@@ -1,36 +1,42 @@
-[![CI](https://github.com/nonameentername/openfight/actions/workflows/ci.yml/badge.svg)](https://github.com/nonameentername/openfight/actions/workflows/ci.yml)
-[![CD](https://github.com/nonameentername/openfight/actions/workflows/cd.yml/badge.svg)](https://github.com/nonameentername/openfight/actions/workflows/cd.yml)
-![GitHub all downloads](https://img.shields.io/github/downloads/nonameentername/openfight/total)
+# Pulse-Fight (OpenFight)
 
-# OpenFight
-
-This is an open source fighting game written in C++ using SDL
+Pulse-Fight is a fast-paced, open-source 2D fighting game written in C++ utilizing SDL and OpenGL. Inspired by classic arcade fighting games, it features a custom game engine with smooth animations, hitbox-based collision detection, basic AI opponents, and an engaging robust fighting system.
 
 ![openfight](./images/openfight-1.png)
-![openfight](./images/openfight-2.png)
-![openfight](./images/openfight-3.png)
-![openfight](./images/openfight-4.png)
+*(Screenshots represent the ongoing development of the game)*
 
-https://github.com/user-attachments/assets/1d26f60d-91d8-4dae-ac71-6a7d8bc14b7e
+## 🎮 Features
+- **Custom Game Engine:** Built from scratch in C++ for maximum performance.
+- **Fluid Combat:** Implemented jumping, crouching, dashing, blocking, and specialized moves.
+- **AI Opponents:** Features basic AI logic for challenging single-player modes.
+- **YAML Configurations:** Easy tweaking of character stats, hitboxes, and environments using YAML files.
+- **Cross-Platform Potential:** Relies on CMake and SDL, abstracting operating system layers.
 
+## 🛠️ Requirements
+Ensure you have the following packages installed before building the project:
+* `cmake`
+* `libyaml-cpp-dev`
+* `libsdl2-dev`, `libsdl2-image-dev`
+* `libglu1-mesa-dev`, `libglew-dev`
 
-## Requirements
+## 🚀 How to Run
 
-* cmake
-* libyaml-cpp-dev
-* libsdl2-dev libsdl2-image-dev libglu1-mesa-dev libglew-dev
+The project can be built and executed easily. On Linux/Ubuntu, simply run the following script:
 
-The project can be executed using the following script:
+```bash
+make ubuntu-install-deps build
+./openfight
+```
 
-    make ubuntu-install-deps build
-    ./openfight
+For Windows build, make sure CMake and a C++ compiler (like MSVC or MinGW) are properly configured.
 
+## 👥 Team Members & Roles
+
+* **Devyansh Nigam (23BCS13022)** - Core Developer & Project Lead (Engine Architecture, Game Mechanics, collision detection)
+* **Gautam Kumar (23BCS13028)** - Core Developer (Graphics Rendering, Animation Management, Input integration)
 
 ## 🤝 Contributing
-
-Pull requests are welcome!  
-If you find a bug or have a feature suggestion, feel free to [open an issue](https://github.com/nonameentername/openfight/issues).
+Pull requests are welcome! If you find a bug or have a feature suggestion, feel free to open an issue.
 
 ## 🛣️ Roadmap
-
-Check out the [ROADMAP](./ROADMAP.md) for planned features and upcoming improvements
+Check out the [ROADMAP](./ROADMAP.md) for planned features and upcoming improvements.
