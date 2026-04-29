@@ -1,6 +1,6 @@
-# Pulse-Fight (OpenFight)
+# Development of Street Fighter Game Using OpenGL
 
-Pulse-Fight is a fast-paced, open-source 2D fighting game written in C++ utilizing SDL and OpenGL. Inspired by classic arcade fighting games, it features a custom game engine with smooth animations, hitbox-based collision detection, basic AI opponents, and an engaging robust fighting system.
+Development of Street Fighter Game Using OpenGL is a fast-paced, open-source 2D fighting game written in C++ utilizing SDL and OpenGL. Inspired by classic arcade fighting games, it features a custom game engine with smooth animations, hitbox-based collision detection, basic AI opponents, and an engaging robust fighting system.
 
 ![openfight](./images/openfight-1.png)
 *(Screenshots represent the ongoing development of the game)*

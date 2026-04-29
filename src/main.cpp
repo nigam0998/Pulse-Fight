@@ -32,7 +32,7 @@ extern "C"
         return -1;
     }
 
-    SDL_Window *window = SDL_CreateWindow("OpenFight", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, screen_width,
+    SDL_Window *window = SDL_CreateWindow("Development of Street Fighter Game Using OpenGL", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, screen_width,
                                           screen_height, SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE);
 
     if (!window) {
